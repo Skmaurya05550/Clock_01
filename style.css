@@ -1,0 +1,98 @@
+
+* {
+     padding: 0;
+     margin: 0;
+     font-family: "Madimi One", sans-serif;
+}
+
+body {
+    background-color: #e3d7ff;
+    color: #e3d7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 300px;
+    height: 400px;
+    background-color: #afa2ff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #e3d7ff;
+}
+
+#clock-container {
+    width: 100%;
+    font-size: 2.5em;
+}
+
+#hour-min-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    border: 2px solid #e3d7ff;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5),
+                            inset -2px 2px 15px rgba(255, 255, 255, 0.5);
+    font-size: 1.5em;
+    overflow: hidden;
+}
+
+.toggle {
+    animation: swipe 1s infinite;
+}
+
+@keyframes swipe {
+    50%, to {
+        transform: translateY(-100px);
+    }
+}
+
+.text {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 8;
+}
+
+
+
+
+
+
+
