@@ -1,6 +1,6 @@
 # Digital Flip Clock
+![17287950518993409643625383082323](https://github.com/user-attachments/assets/11d4fde0-81b9-4c37-bf2f-6e26af94aa99)
 
-https://ibb.co/pRPn0XY
 
 This project is a simple digital flip clock built using HTML, CSS, and JavaScript. The clock displays the current time in hours, minutes, and seconds, updating every second. It features a smooth flip animation that mimics the behavior of a traditional flip clock.
 
